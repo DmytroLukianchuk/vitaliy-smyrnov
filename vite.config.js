@@ -4,6 +4,7 @@ import path from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/vitaliy-smyrnov/",
   logLevel: 'error', // Suppress warnings, only show errors
   server: {
     open: true, // Automatically open the browser when the dev server starts
