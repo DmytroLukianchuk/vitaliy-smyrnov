@@ -22,6 +22,7 @@ const translations = {
     'hero.tag1': 'Індивідуальний підхід',
     'hero.tag2': 'Без зайвих процедур',
     'hero.cta': 'Записатися через Телеграм',
+    'hero.floatingButton': 'Записатися',
     'hero.clients': 'задоволених клієнтів',
     'hero.since': 'року практики',
     
@@ -255,6 +256,7 @@ const translations = {
     'hero.tag1': 'Indywidualne podejście',
     'hero.tag2': 'Bez zbędnych procedur',
     'hero.cta': 'Umów się przez Telegram',
+    'hero.floatingButton': 'Umów się',
     'hero.clients': 'zadowolonych klientów',
     'hero.since': 'lat praktyki',
     

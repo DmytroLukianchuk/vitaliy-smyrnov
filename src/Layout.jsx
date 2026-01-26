@@ -3,9 +3,11 @@ import Header from '@/components/navigation/Header';
 import Footer from '@/components/navigation/Footer';
 import { Button } from '@/components/ui/button';
 import { CalendarCheck } from 'lucide-react';
+import { useTranslation } from '@/components/ui/useTranslation';
 
 export default function Layout({ children, currentPageName }) {
   const [isScrolled, setIsScrolled] = useState(false);
+  const { t } = useTranslation();
 
   useEffect(() => {
     const handleScroll = () => setIsScrolled(window.scrollY > 100);
@@ -38,7 +40,7 @@ export default function Layout({ children, currentPageName }) {
           className="lg:hidden fixed bottom-6 right-6 z-50 bg-emerald-800 hover:bg-emerald-900 text-white rounded-full px-6 py-3 shadow-lg shadow-emerald-900/30"
         >
           <CalendarCheck className="h-4 w-4 mr-2" />
-          Записатися
+          {t('hero.floatingButton')}
         </Button>
       )}
     </div>
