@@ -34,7 +34,7 @@ export default function ServicesCTA() {
             </p>
 
             <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
-              <a href="https://t.me/vitaliy_rehab" target="_blank" rel="noopener noreferrer">
+              <a href="https://t.me/vit2050" target="_blank" rel="noopener noreferrer">
                 <Button 
                   size="lg" 
                   className="bg-white text-emerald-900 hover:bg-stone-100 rounded-full px-8 py-6 text-base font-semibold shadow-lg"

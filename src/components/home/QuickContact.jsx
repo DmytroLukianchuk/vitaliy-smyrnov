@@ -9,7 +9,7 @@ export default function QuickContact() {
   
   const contacts = [
     { icon: Phone, label: t('contact.phone'), value: '+48 797 369 722', href: 'tel:+48797369722' },
-    { icon: Send, label: 'Telegram', value: '@vitaliy_rehab', href: 'https://t.me/vitaliy_rehab' },
+    { icon: Send, label: 'Telegram', value: '@vit2050', href: 'https://t.me/vit2050' },
   ];
   
   return (
@@ -70,7 +70,7 @@ export default function QuickContact() {
               </a>
             </motion.div>
             <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
-              <a href="https://t.me/vitaliy_rehab" target="_blank" rel="noopener noreferrer">
+              <a href="https://t.me/vit2050" target="_blank" rel="noopener noreferrer">
                 <Button 
                   size="lg" 
                   variant="outline" 

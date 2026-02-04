@@ -74,7 +74,7 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="https://t.me/vitaliy_rehab" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-stone-300 hover:text-white transition-colors text-sm">
+                <a href="https://t.me/vit2050" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-stone-300 hover:text-white transition-colors text-sm">
                   <Send className="h-4 w-4 text-emerald-400" />
                   Telegram
                 </a>
