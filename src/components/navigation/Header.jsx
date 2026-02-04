@@ -82,9 +82,9 @@ export default function Header({ currentPageName }) {
           {/* Contact Buttons */}
           <div className="hidden lg:flex items-center gap-3">
             <LanguageSwitcher />
-            <a href="tel:+48123456789" className="flex items-center gap-2 text-sm text-stone-600 hover:text-emerald-800 transition-colors bg-white backdrop-blur-sm px-3 py-2 rounded-full shadow-lg shadow-stone-200/80 border border-stone-100">
+            <a href="tel:+48797369722" className="flex items-center gap-2 text-sm text-stone-600 hover:text-emerald-800 transition-colors bg-white backdrop-blur-sm px-3 py-2 rounded-full shadow-lg shadow-stone-200/80 border border-stone-100">
               <Phone className="h-3.5 w-3.5" />
-              <span>+48 123 456 789</span>
+              <span>+48 797 369 722</span>
             </a>
             <a 
               href="https://t.me/Vit2050"
@@ -137,7 +137,7 @@ export default function Header({ currentPageName }) {
                     <LanguageSwitcher />
                   </div>
                   <a 
-                    href="tel:+48123456789" 
+                    href="tel:+48797369722" 
                     className="flex items-center justify-center gap-2 py-3 rounded-full border border-emerald-800 text-emerald-800 font-medium"
                   >
                     <Phone className="h-4 w-4" />

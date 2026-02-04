@@ -17,8 +17,8 @@ export default function ContactMethods() {
     {
       icon: Phone,
       label: t('contact.callNow'),
-      value: '+48 123 456 789',
-      href: 'tel:+48123456789',
+      value: '+48 797 369 722',
+      href: 'tel:+48797369722',
       color: 'emerald',
     },
     {

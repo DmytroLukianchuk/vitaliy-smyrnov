@@ -8,7 +8,7 @@ export default function QuickContact() {
   const { t } = useTranslation();
   
   const contacts = [
-    { icon: Phone, label: t('contact.phone'), value: '+48 123 456 789', href: 'tel:+48123456789' },
+    { icon: Phone, label: t('contact.phone'), value: '+48 797 369 722', href: 'tel:+48797369722' },
     { icon: Send, label: 'Telegram', value: '@vitaliy_rehab', href: 'https://t.me/vitaliy_rehab' },
   ];
   
@@ -59,7 +59,7 @@ export default function QuickContact() {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
-              <a href="tel:+48123456789">
+              <a href="tel:+48797369722">
                 <Button 
                   size="lg" 
                   className="w-full sm:w-auto bg-white text-emerald-900 hover:bg-stone-100 rounded-full px-8 py-6 text-base font-semibold"

@@ -68,9 +68,9 @@ export default function Footer() {
             <h4 className="font-semibold mb-4 text-emerald-200">{t('footer.contacts')}</h4>
             <ul className="space-y-3">
               <li>
-                <a href="tel:+48123456789" className="flex items-center gap-2 text-stone-300 hover:text-white transition-colors text-sm">
+                <a href="tel:+48797369722" className="flex items-center gap-2 text-stone-300 hover:text-white transition-colors text-sm">
                   <Phone className="h-4 w-4 text-emerald-400" />
-                  +48 123 456 789
+                  +48 797 369 722
                 </a>
               </li>
               <li>

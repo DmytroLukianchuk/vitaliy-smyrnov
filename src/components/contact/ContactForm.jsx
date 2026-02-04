@@ -38,7 +38,7 @@ export default function ContactForm() {
         {/* Quick Actions */}
         <div className="grid sm:grid-cols-2 gap-4 mt-8">
           <motion.a
-            href="tel:+48123456789"
+            href="tel:+48797369722"
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
             className="flex items-center justify-center gap-2 py-4 rounded-full border-2 border-emerald-800 text-emerald-800 font-medium hover:bg-emerald-50 transition-colors"
